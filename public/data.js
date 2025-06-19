@@ -2,7 +2,7 @@ window.APP_DATA = {
   pages: [
     {
       id: "home",
-      title: "Úvod",
+      title: "Úvod1",
       content: `
 # Vítejte
 
