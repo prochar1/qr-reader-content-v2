@@ -34,7 +34,7 @@ function renderMenu(
             }}
             onClick={() => onNavigate(page.id)}
           >
-            {page.title}
+            [{page.id}] {page.title}
           </button>
           {page.children &&
             renderMenu(page.children, currentId, onNavigate, level + 1)}
